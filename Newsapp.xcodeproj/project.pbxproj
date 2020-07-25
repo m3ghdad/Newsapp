@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2D83CE24CCB8590013A775 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D83CD24CCB8590013A775 /* NetworkManager.swift */; };
 		8CC5448C24CCAEBC0004692F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5448B24CCAEBC0004692F /* AppDelegate.swift */; };
 		8CC5448E24CCAEBC0004692F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5448D24CCAEBC0004692F /* SceneDelegate.swift */; };
 		8CC5449024CCAEBC0004692F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5448F24CCAEBC0004692F /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C2D83CD24CCB8590013A775 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8CC5448824CCAEBC0004692F /* Newsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC5448B24CCAEBC0004692F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CC5448D24CCAEBC0004692F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2D83CC24CCB8360013A775 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C2D83CD24CCB8590013A775 /* NetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8CC5447F24CCAEBC0004692F = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 				8CC5448B24CCAEBC0004692F /* AppDelegate.swift */,
 				8CC5448D24CCAEBC0004692F /* SceneDelegate.swift */,
 				8CC5448F24CCAEBC0004692F /* ContentView.swift */,
+				8C2D83CC24CCB8360013A775 /* Models */,
 				8CC5449124CCAEBD0004692F /* Assets.xcassets */,
 				8CC5449624CCAEBD0004692F /* LaunchScreen.storyboard */,
 				8CC5449924CCAEBD0004692F /* Info.plist */,
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2D83CE24CCB8590013A775 /* NetworkManager.swift in Sources */,
 				8CC5448C24CCAEBC0004692F /* AppDelegate.swift in Sources */,
 				8CC5448E24CCAEBC0004692F /* SceneDelegate.swift in Sources */,
 				8CC5449024CCAEBC0004692F /* ContentView.swift in Sources */,
